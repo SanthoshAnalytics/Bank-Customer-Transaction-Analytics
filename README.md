@@ -6,30 +6,41 @@
 
 Transforming raw banking transaction data into actionable business insights through data cleaning, SQL analysis, interactive dashboards, and business intelligence.
 
-<img src="images/tableau_dashboard.png" width="900"/>
+<img src="images/tech_stack.png" width="500">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+<br>
+
+<img src="images/tableau_dashboard.png" width="950">
 
 </div>
 
 ---
 
-# 📖 Project Story
+# 📖 Project Overview
 
-Banks process thousands of transactions every day across multiple channels such as ATM, Branch, and Online Banking.
+This project demonstrates a complete end-to-end Data Analytics workflow on banking transaction data.
 
-The objective of this project is to transform raw transaction data into meaningful business insights by building a complete analytics pipeline using industry-standard tools.
+The project begins with raw transaction records, followed by data cleaning and preprocessing in Python. The cleaned dataset is stored in MySQL for querying and KPI analysis. Interactive dashboards are then developed in Tableau and Power BI to visualize customer behavior, transaction trends, banking channels, and business performance.
 
-This project demonstrates every stage of a real-world data analytics workflow—from data preprocessing and SQL querying to interactive dashboards and business reporting.
+The objective is to transform raw banking data into meaningful business insights that support data-driven decision-making.
+
+---
+
+# 🎯 Objectives
+
+- Clean and preprocess banking transaction data
+- Perform Exploratory Data Analysis (EDA)
+- Build a relational database in MySQL
+- Write SQL queries for KPI and business analysis
+- Develop interactive dashboards using Tableau
+- Create business intelligence reports using Power BI
+- Generate actionable business insights
 
 ---
 
 # 🚀 Project Workflow
 
-<img src="images/workflow.png" width="900"/>
+<img src="images/workflow.png" width="900">
 
 ```
 Raw Dataset
@@ -47,7 +58,7 @@ MySQL Database
 SQL Business Queries
       │
       ▼
-KPI Calculation
+KPI Calculations
       │
       ▼
 Power BI Dashboard
@@ -61,161 +72,157 @@ Business Insights
 
 ---
 
-# 🛠 Tech Stack
+# 🛠 Tools & Technologies
 
-| Category | Tools |
-|-----------|-------|
-| Programming | Python |
-| Data Processing | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
-| Database | MySQL |
-| BI Tool | Tableau |
-| BI Tool | Power BI |
-| Notebook | Jupyter |
-| Version Control | Git & GitHub |
+- 🐍 Python
+- 🗄 MySQL
+- 📊 Tableau
+- 📈 Power BI
+- 📓 Jupyter Notebook
+- 🐼 Pandas
+- 🔢 NumPy
+- 📉 Matplotlib
+- 🎨 Seaborn
+- 🌐 Git & GitHub
 
 ---
 
 # 📊 Exploratory Data Analysis
 
-## Dataset Overview
+## 1️⃣ Dataset Overview
+
+Performed:
 
 - Checked missing values
-- Removed duplicates
+- Removed duplicate records
 - Verified data types
-- Explored dataset structure
+- Explored dataset dimensions
 
-<img src="images/dataset_overview.png" width="850"/>
-
----
-
-## Transaction Distribution
-
-Analyzed transaction amount distribution to understand customer spending patterns.
-
-<img src="images/transaction_distribution.png" width="850"/>
+<img src="images/dataset_overview.png" width="900">
 
 ---
 
-## Monthly Transaction Trend
+## 2️⃣ Transaction Amount Distribution
 
-Observed transaction trends over time to identify seasonal patterns.
+Analyzed transaction amount distribution to understand customer spending behavior.
 
-<img src="images/monthly_trend.png" width="850"/>
+<img src="images/transaction_distribution.png" width="900">
 
 ---
 
-## Debit vs Credit Analysis
+## 3️⃣ Monthly Transaction Trend
+
+Analyzed monthly transaction volume to identify trends and seasonal activity.
+
+<img src="images/monthly_trend.png" width="900">
+
+---
+
+## 4️⃣ Debit vs Credit Analysis
 
 Compared debit and credit transaction volumes.
 
-<img src="images/debit_credit_analysis.png" width="850"/>
+<img src="images/debit_credit_analysis.png" width="900">
 
 ---
 
-## Channel Analysis
+## 5️⃣ Channel Analysis
 
 Compared customer usage across ATM, Branch, and Online Banking.
 
-<img src="images/channel_analysis.png" width="850"/>
+<img src="images/channel_analysis.png" width="900">
 
 ---
 
-## Top 10 Locations
+## 6️⃣ Top 10 Locations
 
 Identified cities generating the highest transaction values.
 
-<img src="images/top_locations.png" width="850"/>
+<img src="images/top_locations.png" width="900">
 
 ---
 
-## Age Group Analysis
+## 7️⃣ Age Group Analysis
 
 Analyzed transaction values across customer age groups.
 
-<img src="images/age_group_analysis.png" width="850"/>
+<img src="images/age_group_analysis.png" width="900">
 
 ---
 
-## Customer Occupation Analysis
+## 8️⃣ Customer Occupation Analysis
 
-Compared transaction activity by occupation.
+Compared transaction activity across different occupations.
 
-<img src="images/occupation_analysis.png" width="850"/>
+<img src="images/occupation_analysis.png" width="900">
 
 ---
 
 # 🗄 SQL Analysis
 
-SQL was used to create the database, validate records, calculate KPIs, and answer business questions.
+The project includes SQL scripts for:
 
-### SQL Modules
-
-- Database Setup
+- Database Creation
 - Data Validation
-- KPI Queries
+- KPI Calculations
 - Business Analysis
-- Project Completion
+- Final Project Summary
 
-<img src="images/sql_queries.png" width="900"/>
+<img src="images/sql_queries.png" width="900">
 
 ---
 
-# 📈 Key Performance Indicators
+# 📈 Key Performance Indicators (KPIs)
 
-The dashboard includes:
+The dashboard provides the following business metrics:
 
-- ✅ Total Transactions
-- ✅ Total Accounts
-- ✅ Total Transaction Value
-- ✅ Average Transaction Value
-- ✅ Average Account Balance
+- Total Transactions
+- Total Accounts
+- Total Transaction Value
+- Average Transaction Value
+- Average Account Balance
 
 ---
 
 # 📊 Tableau Dashboard
 
-Interactive dashboard developed using Tableau.
+The Tableau dashboard provides interactive visualizations including:
 
-### Features
-
-- Monthly Trend
-- Debit vs Credit
-- Channel Analysis
-- Top Locations
-- Age Group Analysis
-- Occupation Analysis
 - KPI Cards
+- Monthly Transaction Trend
+- Debit vs Credit Analysis
+- Banking Channel Analysis
+- Top 10 Locations
+- Age Group Analysis
+- Customer Occupation Analysis
 - Interactive Filters
 
-<img src="images/tableau_dashboard.png" width="950"/>
+<img src="images/tableau_dashboard.png" width="950">
 
 ---
 
 # 📈 Power BI Dashboard
 
-Power BI dashboard built using DAX measures and interactive visuals.
+The Power BI dashboard includes:
 
-### Features
-
-- Dynamic KPIs
+- Dynamic KPI Cards
 - Customer Segmentation
+- DAX Measures
 - Interactive Filters
 - Business Performance Metrics
-- Drill-down Analysis
 
-<img src="images/powerbi_dashboard.png" width="950"/>
+<img src="images/powerbi_dashboard.png" width="950">
 
 ---
 
 # 💡 Business Insights
 
-- Debit transactions contribute the majority of transaction value.
-- ATM is the most frequently used transaction channel.
-- Customers aged **18–35** generate the highest transaction volume.
+- Debit transactions contribute the largest share of total transaction value.
+- ATM and Branch are the most frequently used banking channels.
+- Customers aged **18–35** account for the highest transaction activity.
 - Engineers and Doctors contribute significantly to transaction value.
-- A small number of cities account for a large share of transactions.
-- Monthly trends reveal fluctuations that can support operational planning.
+- A small number of cities generate a large percentage of overall transactions.
+- Monthly transaction patterns reveal fluctuations that can support business planning.
 
 ---
 
@@ -245,8 +252,7 @@ Bank-Customer-Transaction-Analytics
 │   └── Bank_Customer_Analytics.pbix
 │
 ├── images
-│   ├── tableau_dashboard.png
-│   ├── powerbi_dashboard.png
+│   ├── tech_stack.png
 │   ├── workflow.png
 │   ├── dataset_overview.png
 │   ├── transaction_distribution.png
@@ -256,7 +262,9 @@ Bank-Customer-Transaction-Analytics
 │   ├── top_locations.png
 │   ├── age_group_analysis.png
 │   ├── occupation_analysis.png
-│   └── sql_queries.png
+│   ├── sql_queries.png
+│   ├── tableau_dashboard.png
+│   └── powerbi_dashboard.png
 │
 └── README.md
 ```
@@ -265,25 +273,27 @@ Bank-Customer-Transaction-Analytics
 
 # ▶️ How to Run
 
-### Clone Repository
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/SanthoshAnalytics/Bank-Customer-Transaction-Analytics.git
 ```
 
-### Python
+---
 
-Open:
+## 2. Open the Jupyter Notebook
 
-```
+```text
 notebooks/banking_analysis.ipynb
 ```
 
-### SQL
+---
 
-Run the SQL files in order:
+## 3. Execute SQL Scripts
 
-```
+Run the SQL files in the following order:
+
+```text
 01_database_setup.sql
 02_data_validation.sql
 03_kpi_queries.sql
@@ -291,29 +301,30 @@ Run the SQL files in order:
 05_project_completion.sql
 ```
 
-### Tableau
+---
 
-Open:
+## 4. Open Tableau Dashboard
 
-```
+```text
 Tableau/bank_customer_analytics_visualization.twb
 ```
 
-### Power BI
+---
 
-Open:
+## 5. Open Power BI Dashboard
 
-```
+```text
 PowerBI/Bank_Customer_Analytics.pbix
 ```
 
 ---
 
-# 🎯 Future Enhancements
+# 🚀 Future Enhancements
 
-- Fraud Detection using Machine Learning
-- Customer Churn Prediction
-- Real-time Transaction Dashboard
+- Real-time transaction monitoring
+- Fraud detection using Machine Learning
+- Customer churn prediction
+- Banking recommendation system
 - Streamlit Web Application
 - Automated ETL Pipeline
 
@@ -321,17 +332,31 @@ PowerBI/Bank_Customer_Analytics.pbix
 
 # 👨‍💻 Author
 
-**Santhosh V**
+## Santhosh V
 
-Aspiring Data Analyst
+**Aspiring Data Analyst**
 
 ### Skills
 
-Python • SQL • Tableau • Power BI • Pandas • NumPy • Matplotlib • Data Visualization • Business Intelligence
+- Python
+- SQL
+- Tableau
+- Power BI
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Data Visualization
+- Business Intelligence
 
-GitHub:
+### GitHub
+
 https://github.com/SanthoshAnalytics
 
 ---
 
-## ⭐ If you found this project useful, consider giving it a Star!.
+<div align="center">
+
+## ⭐ If you found this project useful, please consider giving it a Star!
+
+</div>
