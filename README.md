@@ -41,7 +41,7 @@ This project showcases practical skills in data preprocessing, database manageme
 
 # 🚀 Project Workflow
 
-<img src="images/workflow.png" width="900">
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/1e19a7fe-bc89-476a-ae91-165d4c273c99" />
 
 ```
 Raw Dataset
