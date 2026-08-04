@@ -8,10 +8,6 @@ This project transforms raw banking transaction data into meaningful business in
 
 <br>
 
-<img src="images/tech_stack.png" width="500">
-
-<br><br>
-
 <img src="images/tableau_dashboard.png" width="900">
 
 </div>
@@ -28,16 +24,50 @@ This project showcases practical skills in data preprocessing, database manageme
 
 # 🎯 Project Objectives
 
-- Clean and preprocess banking transaction data.
-- Perform exploratory data analysis (EDA).
-- Store data in a MySQL database.
-- Develop SQL queries for business analysis.
-- Create KPI metrics for performance monitoring.
-- Design interactive Tableau dashboards.
-- Generate business insights for decision-making.
+* Clean and preprocess banking transaction data.
+* Perform exploratory data analysis (EDA).
+* Store data in a MySQL database.
+* Develop SQL queries for business analysis.
+* Create KPI metrics for performance monitoring.
+* Design interactive Tableau dashboards.
+* Generate business insights for decision-making.
 
 ---
 
 # 🚀 Project Workflow
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/1e19a7fe-bc89-476a-ae91-165d4c273c99" />
+<img width="1536" height="1024" alt="Workflow" src="https://github.com/user-attachments/assets/1e19a7fe-bc89-476a-ae91-165d4c273c99" />
+
+---
+
+# 📁 Project Structure
+
+```text
+Bank-Customer-Transaction-Analytics/
+│
+├── dataset/
+│   ├── bank_transactions.csv
+│   └── cleaned_bank_transactions.csv
+│
+├── notebooks/
+│   ├── 01_Data_Cleaning.ipynb
+│   ├── 02_EDA.ipynb
+│   └── 03_SQL_Analysis.ipynb
+│
+├── sql/
+│   ├── database_schema.sql
+│   ├── data_import.sql
+│   └── business_queries.sql
+│
+├── tableau/
+│   └── Bank_Customer_Analytics.twbx
+│
+├── images/
+│   ├── tech_stack.png
+│   ├── tableau_dashboard.png
+│   └── workflow.png
+│
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
